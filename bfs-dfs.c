@@ -125,7 +125,7 @@ void dfs(int **a, int n, int s)
             while (parent[k] != -1)
             {
                 k = parent[k];
-                printf("%d ", k + 1);
+                printf("-> %d ", k + 1);
             }
         }
     }
@@ -189,7 +189,7 @@ void bfs(int **a, int n, int s)
             while (parent[k] != -1)
             {
                 k = parent[k];
-                printf("%d ", k + 1);
+                printf("-> %d ", k + 1);
             }
         }
     }
